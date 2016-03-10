@@ -113,7 +113,7 @@ if(Meteor.isClient) {
 }
 ```
 
-## Making routing work on a non Meteor server
+## Making routing work on a non-Meteor server
 
 To be able to open URLs and let them be handled by the client side JavaScript, you need to rewrite URLs on the server side, so they point always to your index.html.
 
